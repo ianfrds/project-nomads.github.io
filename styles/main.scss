@@ -1,0 +1,428 @@
+:root{
+    --assistant-font:font-family: 'Assistant',sans-serif;
+    --playfair-font:font-family: 'Playfair Display', serif;
+    --primary-color:#071C4D;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Assistant',sans-serif;
+    color:#071C4D;
+  }
+
+
+  // Navbar
+  .navbar-brand{
+    img{
+      max-height: 40px;
+    }
+  }
+  
+  .btn-login{
+    background-color: #071C4D;
+    color: white;
+    &:hover{
+        background-color: #113a99;
+        color: white;
+    }
+  }
+
+  .btn-navbar-right{
+    margin-top: -11px !important;
+    margin-bottom: -8px !important;
+    margin-right: -18px !important;
+    height: 70px;
+    width: 120px;
+    border-radius: 0px;
+  }
+
+  .navbar-light{
+  .navbar-nav{
+    .nav-link{
+        font-family: var(--assistant-font);
+        color: var(--primary-color);
+        &.active{
+            font-weight: bold;
+            color:var(--primary-color)
+        }
+    }
+  }
+}
+
+// Header
+  header{
+  padding: 180px 0 200px;
+  margin-top: -70px;
+  background-image: url(../images/Group\ 6.jpg);
+  background-size: cover;
+}
+
+  .text-center{
+  color: white;
+  h1{
+    font-family: 'Playfair',serif;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  p{
+    font-size: 25px;
+  }
+  .btn-get-started{
+    background-color: #FF9E53;
+    color: white;
+    padding: 15px 50px;
+
+    &:hover{
+      background-color: #f57a1c;
+    }
+  }
+}
+
+// Main Konten 
+// Stats
+  .section-stats{
+  margin-top: -50px;
+
+  .stats-detail{
+    padding-top: 15px;
+    background-color: #fff;
+    padding-left: 40px;
+  }
+
+  h2{
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  p{
+    font-size: 20px;
+    font-weight: lighter;
+  }
+}
+
+// Popular
+  .section-popular{
+  background-color: #071C4D;
+  min-height: 540px;
+  margin-top: -50px;
+  margin-bottom: -230px;
+
+  .section-popular-heading{
+    margin-top: 150px;
+
+    h1{
+      font-weight: bold;
+      font-size: 60px;
+    }
+
+    p{
+      margin-top: 10px ;
+      font-size: 18px;
+    }
+  }
+}
+
+// Popular content
+  .section-popular-content{
+  margin-top: 50px;
+  .section-popular-travel{
+    .card-travel{
+      min-height: 380px;
+      color: #fff;
+      background-color: #6e6e6e;
+      padding: 30px;
+      background-size: cover;
+      margin-bottom: 20px;
+    }
+
+    .travel-country{
+      font-size: 18px;
+    }
+    .travel-location{
+      font-size: 26px;
+    }
+    .travel-button{
+      .btn-travel-details{
+      font-size: 15px;
+      text-decoration: none;
+      background-color: #f57a1c;
+      padding: 10px;
+      border-radius: 4px;
+      color: #fff;
+
+      &:hover{
+        background-color: #b4570f;
+      }
+
+      }
+    }
+  }
+}
+
+// Network Content
+  .section-network{
+  background-color: #ffffff;
+  margin-top: -220px;
+  padding-top: 300px;
+  padding-bottom: 100px;
+
+  h2{
+    font-family: 'Playfair';
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  img{
+    max-width: 100%;
+  }
+}
+
+
+// Testimonial Content
+  .section-testimonial-heading{
+  background: linear-gradient(0deg, rgba(230,236,255,1) 0%, rgba(255,255,255,1) 100%);
+  padding-top: 40px;
+  padding-bottom: 50vh;
+  h1,p{
+    color: #071C4D;
+  }
+  h1{
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  p{
+    font-size: 18px;
+  }
+}
+
+  .section-testimonial-content{
+  margin-top: -300px;
+  padding-bottom: 100px;
+  
+  .card-testimonial{
+    padding-top: 30px;
+     border-radius: 10px;
+     font-family: var(--assistant-font);
+     h3{
+      color: #071C4D;
+     }
+     .testimonial{
+      margin: 0 20px;
+      color: rgb(110, 110, 110);
+      font-size: 26px;
+      font-weight: lighter;
+      min-height: 133px;
+     }
+     .trip-to{
+      color: #6e6e6e;
+      font-size: 15px;
+    }
+  }
+}
+
+  .btn-getStarted{
+  font-size: 15px;
+  text-decoration: none;
+  background-color: #f57a1c;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+
+  &:hover{
+    background-color: #b4570f;
+    color: white;
+  }
+}
+
+  .btn-needHelp{
+  font-size: 15px;
+  background-color: #e0e0e0;
+  padding: 10px;
+  color: rgb(154, 154, 154);
+  border: black solid 0,6px;
+
+  &:hover{
+    background-color: #c0c0c0;
+    color: white;
+  }
+}
+
+// Footer
+  .section-footer{
+  a{
+    color: #071C4D;
+  }
+  h5{
+    font-size: 30px;
+  }
+}
+
+
+// DETAILS PAGE
+.section-details-header{
+  background-color: #ececec;
+  min-height: 310px;
+  margin-top: -70px;
+}
+
+.section-details-content{
+  margin-top: -210px;
+  min-height: 100vh;
+  .breadcrumb{
+    background-color: transparent;
+    padding: 0;
+  }
+  .breadcrumb-item{
+    color: var(--primary-color);
+    font-size: 20px;
+    &.active{
+      font-weight: 600;
+    }
+  }
+}
+
+.card-details{
+  padding: 30px;
+  border-radius: 11px;
+
+  h1{
+    font-size: 26px;
+  }
+  h5{
+    font-size: 18px;
+    color: #c0c0c0;
+  }
+
+  p{
+    font-size: 18px;
+    color: #b1b1b1;
+  }
+}
+
+.gallery{
+  .xzoom-container{
+    display: block;
+    flex-direction: column;
+
+    .xzoom{
+      width: 100%;
+      box-shadow: none;
+      margin-bottom: 10px;
+    }
+
+    .xactive{
+      border: 4px solid #1ABC9C;
+      box-shadow: none;
+    }
+  } 
+}
+
+.features{
+  margin-top: 30px;
+
+  h3{
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  p{
+    margin-bottom: 0;
+  }
+}
+
+.description{
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.features-image{
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+
+.join-container{
+  margin-top: -16px;
+
+  .btn-join-now{
+    background-color: #FF9E53;
+    color: white;
+    border-radius: 0;
+    
+    &:hover{
+      background-color: #ffb57d;
+    }
+  }
+}
+
+.card-right{
+  border-radius: 10px 10px 0px 0px;
+}
+
+.table{
+  color: #071C4D;
+}
+
+.btn-add-now{
+  background-color: #071C4D;
+  color: white;
+
+  &:hover{
+    background-color: #123381;
+  }
+}
+
+.text-orange{
+  color: #f57a1c;
+}
+
+.payment-instruction{
+  p{
+    font-size: 15px;
+  }
+}
+
+.bank-choice{
+  .bank-item{
+    img{
+      width: 45px;
+      height: 45px;
+      float: left;
+    }
+  }
+
+}
+
+.deskripsi-bank{
+  // margin-left: px;
+  overflow: hidden;
+  
+  // float: left;
+}
+
+.section-success{
+  height: 90vh;
+
+  h2{
+    font-weight: 600;
+    font-size: 32px;
+    color: #071C4D;
+  }
+
+  p{
+    color: #b1b1b1;
+    font-size: 18px;
+  }
+
+  .btn-home-page{
+    background-color: #071C4D;
+    color: white;
+    border-radius: 5px;
+    
+    &:hover{
+      background-color: #113a99;
+    }
+  }
+}
